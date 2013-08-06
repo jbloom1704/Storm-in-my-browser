@@ -1,0 +1,72 @@
+<!DOCTYPE html >
+	
+<!--
+	Preferred Name: Jasper Mishra
+	Registered Name:Abhishek Mishra	
+	Student id: 0934024
+	CSE 154 Spring '13
+	Homework assignment #1
+	File:recipe.html
+	Description: Contains few elements to run the haunted mansion animation
+				  and link to the pie.html page.
+				  
+				  Please run this file in the presence of and in conjunction with
+				  the rest of the files provided in my hw1 server.
+			
+				  Please click on the creepy statue to get to pie.html -->
+	
+  <html>
+	<head>
+		<title>Home Page</title>
+		<link href="index.css" type="text/css" rel="stylesheet" />
+		<script src="jQuery.js" type="text/javascript" ></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script> 
+		<script src="svg2.js" type="text/javascript" ></script>
+		<script src="svg.js" type="text/javascript" ></script> 
+		<script src="svg3.js" type="text/javascript" ></script>	
+
+		  
+
+	</head>
+	
+	<body>
+	
+		<div class="creepystatue"><a href="pie.html" ><img src="statue.png" alt="creepy statue" style="position:absolute" /></a></div>
+
+
+
+		<div class="primaryContainer">
+		  <div id="cloudsContainer1" style="left:-2240px;" class="cloudsContainer"> 
+			<img src="clouds.png" alt="cloud" style="left:-60em;"  />
+			<img  src="clouds.png" alt="cloud" style="left:-40em;" />
+			<img src="clouds.png" alt="cloud"  style="left:-20em;" />
+			<img  src="clouds.png" alt="cloud" style="left:0em; top:-1em;"  />
+			 <img  src="clouds.png" alt="cloud" style="left:20em;"  />
+			<img  src="clouds.png" alt="cloud" style="left:40em;"  />
+			<img  src="clouds.png" alt="cloud" style="left:60em;"  />
+		 </div>
+
+		  <div id="cloudsContainer2" class="cloudsContainer"> 
+			<img  src="clouds.png" alt="cloud" style="left:-60em;" />
+			<img  src="clouds.png" alt="cloud" style="left:-40em;" />
+			<img  src="clouds.png" alt="cloud" style="left:-20em;"  />
+			<img src="clouds.png" alt="cloud" style="left:0em; top:-1em;"  />
+			 <img  src="clouds.png" alt="cloud" style="left:20em;"  />
+			<img  src="clouds.png" alt="cloud" style="left:40em;" />
+			<img  src="clouds.png" alt="cloud" style="left:60em;" />
+		 </div> 
+
+		<audio style="display:none;" controls="controls" loop="loop" autoplay="autoplay" >
+			<source src="rain.mp3" type="audio/mpeg" />
+			<source src="rain.wav" type="audio/wav" />
+			<embed height="50" width="100" src="rain.mp3" />
+		</audio>
+		
+	</div>	
+	
+	
+		
+		
+	</body>	
+</html>

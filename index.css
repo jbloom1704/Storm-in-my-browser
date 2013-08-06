@@ -1,0 +1,86 @@
+/*	 
+	Preferred Name: Jasper Mishra
+	Registered Name:Abhishek Mishra
+	Student id: 0934024
+	CSE 154 Spring '13
+	Homework assignment #1
+	File:recipe.css
+	Description: Contains all the CSS code for the index page.
+*/
+
+body {
+	background-image:url("hh2.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	margin:0px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+droplet{
+	background: rgb(125,126,125); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+	background: linear-gradient(-45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+}
+
+.primaryContainer {
+	overflow: hidden;
+	width: 94.5em;
+	position: absolute;
+	height: 17em;
+}
+
+
+
+.cloudsContainer{
+	position: absolute;
+	top: -3em;
+
+}
+
+#cloudsContainer1 img, #cloudsContainer2 img {
+	height: 12em;
+	width: 43em;
+	position: absolute;
+}
+
+.globalObj {
+	position:absolute;
+	-webkit-transform: skew(+20deg,0deg);  
+	-moz-transform: skew(+20deg,0deg); 
+	-o-transform: skew(+20deg,0deg);
+	-ms-transform: skew(+20deg,0deg);
+	height:1.6em;
+	z-index:-1;
+
+}
+
+
+.lightning1{
+	position: absolute;
+	top: -1em;
+	left: 32em;
+	height: 20em;
+
+}
+
+.droplet {
+	position: absolute;
+	border-style: double;
+	border-color: #BEBEBE;
+	background-color:rgb(233,233,233);
+	opacity: 0.3;
+}
+
+.creepystatue {
+	position:absolute;
+	top: 9%;
+	left: -9%;
+	z-index:-1;
+
+}
+

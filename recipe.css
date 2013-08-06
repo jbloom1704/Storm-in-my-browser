@@ -1,0 +1,63 @@
+/*
+	Preferred Name: Jasper Mishra
+	Registered Name:Abhishek Mishra
+	Student id: 0934024
+	CSE 154 Spring '13
+	Homework assignment #1
+	File:recipe.css
+	Description: Contains all the CSS code for the recipe page.
+
+
+*/
+
+body {
+	background-image:url("https://webster.cs.washington.edu/images/silverware.jpg");
+	background-attachment:fixed;
+
+}
+
+h1,h2,h3 {
+	color:rgb(164,164,0);
+	background-color:rgb(240,240,240);
+	font-family:"Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	font-size:18pt;	
+	text-align:left;
+	font-weight:normal;
+	text-decoration:underline;
+}
+h1.mainhead {
+	text-align:center;
+	font-size:22pt;
+	font-weight:bold;
+}
+
+body { 
+	background-color:rgb(255,255,255);
+	color:rgb(64,64,64);
+	font-size:11pt;
+	font-family:Georgia,Garamond,serif;
+}
+
+a {
+	color:rgb(164,164,0);
+}
+
+.dirparagraph {
+	width:69em;
+}
+
+abbr {
+	text-decoration:underline;
+}
+
+blockquote {
+	font-style:italic;
+	background-color:rgb(255,255,168);
+
+}
+
+
+
+
+
+
